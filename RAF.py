@@ -65,6 +65,12 @@ async def ban(ctx, userName: discord.Member, *, reason: str):
         embed = discord.Embed(title="User banned:", description=f"User {userName} has successfully been banned.", color=0x1f32af)
         await bot.say(embed=embed)
 
+@bot.command()
+async def help():
+    embed = discord.Embed(title="Help page:", description=f"**Spitfire** \nShows you images and lists facts on the plane. \n**F16** \nLists stats on the plane and shows multiple pictures. \n**Typhoon** \nPictures on the rare plane, and statistics of it. \n**Chinook** \nShows you a list of pictures, and facts on the helicopter \n**Kick** \nKicks the user mentioned, if you have sufficiant permissions \n**Ban** \nBans the user mentioned from the server, given you have permissions. \n \nRAF Air Recognision made by </Harry>#6270", color=0x1f32af)
+    await bot.say(embed=embed)
+    
+
 
 
 
