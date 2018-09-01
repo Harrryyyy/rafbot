@@ -75,4 +75,4 @@ async def help():
 
 
 
-bot.run("NDg0MzgyMjEzMDA2Mjk1MDcw.DmhLsw.MAxXhFR6qzIY5iGI5L2zHKlMyRc")
+bot.run("NDg0MzgyMjEzMDA2Mjk1MDcw.Dmvzhw.W_VwoHZ9ULf8GgNlvWPhVznSLkw")
